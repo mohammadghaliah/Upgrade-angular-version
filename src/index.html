@@ -1,0 +1,37 @@
+<html>
+  Steps to upgrade OnePass angular version to 15
+</html>
+
+<!-- 
+  Steps to upgrade OnePass angular version to 15
+1.	Uninstall Node.js
+›	Run npm cache clean --force 
+›	Uninstall from Programs & Features with the uninstaller
+
+2.	Install latest version from Node.js
+›	Go to the site https://nodejs.org/en/download/ 
+›	Install version 18.16.0  msi file.
+›	Double click on the downloaded .msi file to start the installation
+
+3.	Uninstall Angular Version 9
+›	Run npm uninstall -g @angular/cli
+
+4.	Install Angular Version 15
+›	Run npm install -g @angular/cli@15.0.4
+
+5.	Uninstall Typescript
+›	npm uninstall -g typescript 
+
+6.	Install Typescript
+›	npm install -g typescript@4.8.2
+
+7.	Delete Old Files
+›	Go to OnePass web project and delete node modules & package-lock.json
+
+8.	Run Install Command
+›	Open prompt command and navigate to the path of OnePass web project 
+›	Run npm install 
+›	If you have faced issues while running the above command, you can use –force
+
+9.	Note: to Enable Debugging
+›	Run “ng serve -c local” instead of “ng serve” -->
